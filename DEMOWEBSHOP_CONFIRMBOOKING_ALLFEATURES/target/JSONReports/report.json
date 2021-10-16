@@ -1,0 +1,320 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-14T10:37:42.059Z",
+        "line": 2,
+        "name": "To validate that the user is able to confirm order",
+        "description": "",
+        "id": "feature-to-test-the-confirm-booking-functionality;to-validate-that-the-user-is-able-to-confirm-order",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35020406000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User have completed filling order details till payment information",
+            "match": {
+              "location": "stepDefination.ConfirmOrderScenario.user_have_completed_filling_order_details_till_payment_information()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2086274400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on checkout page - confirm order part",
+            "match": {
+              "location": "stepDefination.ConfirmOrderScenario.user_is_on_checkout_page_confirm_order_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2085077300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks the Confrim button",
+            "match": {
+              "location": "stepDefination.ConfirmOrderScenario.user_clicks_the_Confrim_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10271700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is navigated to the order processed page",
+            "match": {
+              "location": "stepDefination.ConfirmOrderScenario.user_is_navigated_to_the_order_processed_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29502200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "page displays Thankyou and order Note.",
+            "match": {
+              "location": "stepDefination.ConfirmOrderScenario.page_displays_Thankyou_and_order_details()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T10:38:21.417Z",
+        "line": 9,
+        "name": "To validate that the user is able to download the receipt",
+        "description": "",
+        "id": "feature-to-test-the-confirm-booking-functionality;to-validate-that-the-user-is-able-to-download-the-receipt",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37444859700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User have completed buying process",
+            "match": {
+              "location": "stepDefination.DownloadReceiptScenario.user_have_completed_buying_process()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 689944900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on order details page",
+            "match": {
+              "location": "stepDefination.DownloadReceiptScenario.user_is_on_order_details_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4554077000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks the PDF Invoice button",
+            "match": {
+              "location": "stepDefination.DownloadReceiptScenario.user_clicks_the_PDF_Invoice_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32727500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "system downloads the respected order details pdf",
+            "match": {
+              "location": "stepDefination.DownloadReceiptScenario.system_downloads_the_respected_order_details_pdf()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T10:39:04.150Z",
+        "line": 15,
+        "name": "To validate that the user is able to print the receipt",
+        "description": "",
+        "id": "feature-to-test-the-confirm-booking-functionality;to-validate-that-the-user-is-able-to-print-the-receipt",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36942024700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User have completed the buying process",
+            "match": {
+              "location": "stepDefination.PrintReceiptScenario.user_have_completed_the_buying_process()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5793599200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is on the order details page",
+            "match": {
+              "location": "stepDefination.PrintReceiptScenario.user_is_on_the_order_details_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120649100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks the Print button",
+            "match": {
+              "location": "stepDefination.PrintReceiptScenario.user_clicks_the_Print_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 720617400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "system navigates the user to print application",
+            "match": {
+              "location": "stepDefination.PrintReceiptScenario.system_navigates_the_user_to_print_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T10:39:47.738Z",
+        "line": 21,
+        "name": "To validate that the user is able to edit the order details",
+        "description": "",
+        "id": "feature-to-test-the-confirm-booking-functionality;to-validate-that-the-user-is-able-to-edit-the-order-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38459780200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should have placed order",
+            "match": {
+              "location": "stepDefination.EditOrderDetailsScenario.user_should_have_placed_order()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3160733200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user is on specific order details page",
+            "match": {
+              "location": "stepDefination.EditOrderDetailsScenario.user_is_on_specific_order_details_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40770100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user clicks the Edit Details button",
+            "match": {
+              "location": "stepDefination.EditOrderDetailsScenario.user_clicks_the_Edit_Details_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9035400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "system navigates user to the respected order details edit page",
+            "match": {
+              "location": "stepDefination.EditOrderDetailsScenario.system_navigates_user_to_the_respected_order_details_edit_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T10:40:29.420Z",
+        "line": 27,
+        "name": "To validate that the user is able to cancel the order",
+        "description": "",
+        "id": "feature-to-test-the-confirm-booking-functionality;to-validate-that-the-user-is-able-to-cancel-the-order",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37175846100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User have completed the order placing process",
+            "match": {
+              "location": "stepDefination.CancelOrderScenario.user_have_completed_the_order_placing_process()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2694228600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user is on cancelling order details page",
+            "match": {
+              "location": "stepDefination.CancelOrderScenario.user_is_on_cancelling_order_details_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 993500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicks the Cancel Order button",
+            "match": {
+              "location": "stepDefination.CancelOrderScenario.user_clicks_the_Cancel_Order_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7976000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user is navigated to the order cancellation page",
+            "match": {
+              "location": "stepDefination.CancelOrderScenario.user_is_navigated_to_the_order_cancellation_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test the Confirm Booking functionality",
+    "description": "",
+    "id": "feature-to-test-the-confirm-booking-functionality",
+    "keyword": "Feature",
+    "uri": "file:///C:/Users/seth/eclipse-workspace/DEMOWEBSHOP_CONFIRMBOOKING/testingFeatures/ConfirmBookingModule.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="207.556">
+    <testcase classname="feature to test the Confirm Booking functionality" name="To validate that the user is able to confirm order" time="39.344">
+        <system-out><![CDATA[Given User have completed filling order details till payment information....passed
+And user is on checkout page - confirm order part...........................passed
+When user clicks the Confrim button.........................................passed
+Then user is navigated to the order processed page..........................passed
+And page displays Thankyou and order Note...................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="feature to test the Confirm Booking functionality" name="To validate that the user is able to download the receipt" time="42.725">
+        <system-out><![CDATA[Given User have completed buying process....................................passed
+And user is on order details page...........................................passed
+When user clicks the PDF Invoice button.....................................passed
+Then system downloads the respected order details pdf.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="feature to test the Confirm Booking functionality" name="To validate that the user is able to print the receipt" time="43.581">
+        <system-out><![CDATA[Given User have completed the buying process................................passed
+And user is on the order details page.......................................passed
+When user clicks the Print button...........................................passed
+Then system navigates the user to print application.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="feature to test the Confirm Booking functionality" name="To validate that the user is able to edit the order details" time="41.674">
+        <system-out><![CDATA[Given User should have placed order.........................................passed
+And user is on specific order details page..................................passed
+When user clicks the Edit Details button....................................passed
+Then system navigates user to the respected order details edit page.........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="feature to test the Confirm Booking functionality" name="To validate that the user is able to cancel the order" time="39.88">
+        <system-out><![CDATA[Given User have completed the order placing process.........................passed
+And user is on cancelling order details page................................passed
+When user clicks the Cancel Order button....................................passed
+Then user is navigated to the order cancellation page.......................passed
+]]></system-out>
+    </testcase>
+</testsuite>
